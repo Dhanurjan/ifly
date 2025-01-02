@@ -218,7 +218,7 @@
 
               <form
                 id="full-form"
-                action="https://formspree.io/f/xkggbyja"
+                action="https://formspree.io/f/xzzzjlpd"
                 method="POST"
                 enctype="multipart/form-data"
               >
@@ -251,7 +251,7 @@
                   <input
                     type="tel"
                     id="contactNumber"
-                    name="contactNumber"
+                    name="Contact Number"
                     placeholder="Enter your contact number"
                     required
                   />
@@ -261,7 +261,7 @@
                   <input
                     type="text"
                     id="nic"
-                    name="nic"
+                    name="NIC Number"
                     placeholder="Enter your NIC number"
                     required
                   />
@@ -270,20 +270,20 @@
                   <label for="permanentAddress"
                     >4. Permanent Residential Address</label
                   >
-                  <input
+                  <textarea
                     type="text"
                     id="permanentAddress"
-                    name="permanentAddress"
+                    name="Permanent Residential Address"
                     placeholder="Enter your address"
                     required
-                  />
+                  ></textarea>
                 </div>
                 <div class="form-group">
                   <label for="province">5. Province</label>
                   <input
                     type="text"
                     id="province"
-                    name="province"
+                    name="Province"
                     placeholder="Enter your province"
                     required
                   />
@@ -293,7 +293,7 @@
                   <input
                     type="text"
                     id="city"
-                    name="city"
+                    name="City"
                     placeholder="Enter your city"
                     required
                   />
@@ -303,20 +303,20 @@
                   <input
                     type="text"
                     id="schoolName"
-                    name="schoolName"
+                    name="School Name"
                     placeholder="Enter your school name"
                     required
                   />
                 </div>
                 <div class="form-group">
                   <label for="schoolAddress">8. School Address</label>
-                  <input
+                  <textarea
                     type="text"
                     id="schoolAddress"
-                    name="schoolAddress"
+                    name="School Address"
                     placeholder="Enter your school address"
                     required
-                  />
+                  ></textarea>
                 </div>
                 <div class="form-group">
                   <label for="durationOfSchooling"
@@ -325,7 +325,7 @@
                   <input
                     type="text"
                     id="durationOfSchooling"
-                    name="durationOfSchooling"
+                    name="Duration of Schooling"
                     placeholder="Enter duration of schooling"
                     required
                   />
@@ -338,7 +338,7 @@
                   <input
                     type="text"
                     id="occupation"
-                    name="occupation"
+                    name="Occupation"
                     placeholder="Enter your occupation"
                     required
                   />
@@ -350,7 +350,7 @@
                   <input
                     type="text"
                     id="orgName"
-                    name="orgName"
+                    name="Name of the Organization/Company"
                     placeholder="Enter organization/company name"
                     required
                   />
@@ -362,7 +362,7 @@
                   <input
                     type="text"
                     id="orgAddress"
-                    name="orgAddress"
+                    name="Address of the Organization/Company"
                     placeholder="Enter organization/company address"
                     required
                   />
@@ -374,7 +374,7 @@
                   <input
                     type="tel"
                     id="orgContactNumber"
-                    name="orgContactNumber"
+                    name="Contact Number of the Organization/Company"
                     placeholder="Enter contact number"
                     required
                   />
@@ -386,7 +386,7 @@
                   <input
                     type="email"
                     id="orgEmail"
-                    name="orgEmail"
+                    name="Email Address of the Organization/Company"
                     placeholder="Enter email address"
                     required
                   />
@@ -398,7 +398,7 @@
                   <input
                     type="date"
                     id="orgEstablishedDate"
-                    name="orgEstablishedDate"
+                    name="Established Date of the Organization/Company"
                     required
                   />
                 </div>
@@ -409,7 +409,7 @@
                   <input
                     type="text"
                     id="supervisorName"
-                    name="supervisorName"
+                    name="Company Supervisor Name"
                     placeholder="Enter supervisor name"
                     required
                   />
@@ -421,7 +421,7 @@
                   <input
                     type="tel"
                     id="supervisorContact"
-                    name="supervisorContact"
+                    name="Contact Number of the Company Supervisor"
                     placeholder="Enter supervisor contact number"
                     required
                   />
@@ -434,31 +434,33 @@
                   <input
                     type="text"
                     id="fatherName"
-                    name="fatherName"
+                    name="Father Name"
                     placeholder="Enter father name"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="fatherDob">19. Date of Birth</label>
+                  <label for="fatherDob">19. Father's Date of Birth</label>
                   <input type="date" id="fatherDob" name="fatherDob" required />
                 </div>
                 <div class="form-group">
-                  <label for="fatherBirthPlace">20. Place of Birth</label>
+                  <label for="fatherBirthPlace"
+                    >20. Father's Place of Birth</label
+                  >
                   <input
                     type="text"
                     id="fatherBirthPlace"
-                    name="fatherBirthPlace"
+                    name="Father's Place of Birth"
                     placeholder="Enter place of birth"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="fatherOccupation">21. Occupation</label>
+                  <label for="fatherOccupation">21. Father's Occupation</label>
                   <input
                     type="text"
                     id="fatherOccupation"
-                    name="fatherOccupation"
+                    name="Father's Occupation"
                     placeholder="Enter occupation"
                     required
                   />
@@ -474,25 +476,32 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label for="motherDob">23. Date of Birth</label>
-                  <input type="date" id="motherDob" name="motherDob" required />
+                  <label for="motherDob">23. Mother's Date of Birth</label>
+                  <input
+                    type="date"
+                    id="motherDob"
+                    name="Mother's Date of Birth"
+                    required
+                  />
                 </div>
                 <div class="form-group">
-                  <label for="motherBirthPlace">24. Place of Birth</label>
+                  <label for="motherBirthPlace"
+                    >24. Mother's Place of Birth</label
+                  >
                   <input
                     type="text"
                     id="motherBirthPlace"
-                    name="motherBirthPlace"
+                    name="Mother's Place of Birth"
                     placeholder="Enter place of birth"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="motherOccupation">25. Occupation</label>
+                  <label for="motherOccupation">25. Mother's Occupation</label>
                   <input
                     type="text"
                     id="motherOccupation"
-                    name="motherOccupation"
+                    name="Mother's Occupation"
                     placeholder="Enter occupation"
                     required
                   />
@@ -508,25 +517,31 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label for="spouseDob">27. Date of Birth</label>
-                  <input type="date" id="spouseDob" name="spouseDob" />
+                  <label for="spouseDob">27. Spouse Date of Birth</label>
+                  <input
+                    type="date"
+                    id="spouseDob"
+                    name="Spouse Date of Birth"
+                  />
                 </div>
                 <div class="form-group">
-                  <label for="spouseBirthPlace">28. Place of Birth</label>
+                  <label for="spouseBirthPlace"
+                    >28. Spouse Place of Birth</label
+                  >
                   <input
                     type="text"
                     id="spouseBirthPlace"
-                    name="spouseBirthPlace"
+                    name="Spouse Place of Birth"
                     placeholder="Enter place of birth"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="spouseOccupation">29. Occupation</label>
+                  <label for="spouseOccupation">29. Spouse Occupation</label>
                   <input
                     type="text"
                     id="spouseOccupation"
-                    name="spouseOccupation"
+                    name="Spouse Occupation"
                     placeholder="Enter occupation"
                     required
                   />
@@ -536,21 +551,26 @@
                   <input
                     type="text"
                     id="childName"
-                    name="childName"
+                    name="Child Name"
                     placeholder="Enter child name"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="childDob">31. Date of Birth</label>
-                  <input type="date" id="childDob" name="childDob" required />
+                  <label for="childDob">31. Child Date of Birth</label>
+                  <input
+                    type="date"
+                    id="childDob"
+                    name="Child Date of Birth"
+                    required
+                  />
                 </div>
                 <div class="form-group">
-                  <label for="childBirthPlace">32. Place of Birth</label>
+                  <label for="childBirthPlace">32. Child Place of Birth</label>
                   <input
                     type="text"
                     id="childBirthPlace"
-                    name="childBirthPlace"
+                    name="Child Place of Birth"
                     placeholder="Enter place of birth"
                     required
                   />
@@ -563,7 +583,7 @@
                   <input
                     type="text"
                     id="travelPurpose"
-                    name="travelPurpose"
+                    name="Purpose of Travel"
                     placeholder="Enter purpose of travel"
                     required
                   />
@@ -573,7 +593,7 @@
                   <input
                     type="date"
                     id="arrivalDate"
-                    name="arrivalDate"
+                    name="Expected Date of Arrival"
                     required
                   />
                 </div>
@@ -584,21 +604,26 @@
                   <input
                     type="text"
                     id="entryPoint"
-                    name="entryPoint"
+                    name="Expected Entry Point / City"
                     placeholder="Enter entry point/city"
                     required
                   />
                 </div>
                 <div class="form-group">
                   <label for="exitDate">36. Expected Date of Exit</label>
-                  <input type="date" id="exitDate" name="exitDate" required />
+                  <input
+                    type="date"
+                    id="exitDate"
+                    name="Expected Date of Exit"
+                    required
+                  />
                 </div>
                 <div class="form-group">
                   <label for="exitPoint">37. Expected Exit Point / City</label>
                   <input
                     type="text"
                     id="exitPoint"
-                    name="exitPoint"
+                    name="Expected Exit Point / City"
                     placeholder="Enter exit point/city"
                     required
                   />
@@ -607,13 +632,13 @@
                   <label for="residenceInChina"
                     >38. Resident/Hotel Address in China</label
                   >
-                  <input
+                  <textarea
                     type="text"
                     id="residenceInChina"
-                    name="residenceInChina"
+                    name="Resident/Hotel Address in China"
                     placeholder="Enter address"
                     required
-                  />
+                  ></textarea>
                 </div>
                 <div class="form-group">
                   <label for="hotelContact"
@@ -622,7 +647,7 @@
                   <input
                     type="tel"
                     id="hotelContact"
-                    name="hotelContact"
+                    name="Contact/Hotel Number in China"
                     placeholder="Enter contact number"
                     required
                   />
@@ -635,7 +660,7 @@
                   <input
                     type="text"
                     id="emergencyName"
-                    name="emergencyName"
+                    name="Emergency Name"
                     placeholder="Enter full name"
                     required
                   />
@@ -645,27 +670,27 @@
                   <input
                     type="tel"
                     id="emergencyContact"
-                    name="emergencyContact"
+                    name="Emergency Contact"
                     placeholder="Enter contact number"
                     required
                   />
                 </div>
                 <div class="form-group">
                   <label for="emergencyAddress">42. Address</label>
-                  <input
+                  <textarea
                     type="text"
                     id="emergencyAddress"
-                    name="emergencyAddress"
+                    name="Emergency Address"
                     placeholder="Enter address"
                     required
-                  />
+                  ></textarea>
                 </div>
                 <div class="form-group">
                   <label for="relationship">43. Relationship</label>
                   <input
                     type="text"
                     id="relationship"
-                    name="relationship"
+                    name="Relationship"
                     placeholder="Enter relationship"
                     required
                   />
